@@ -1,0 +1,193 @@
+1.Black coffee
+A Bold, rich, and invigorating, it's the perfect start to conquer the day.
+
+2.Hot cocoa float
+A Indulge in the creamy bliss of hot cocoa float, where warmth meets sweet, frothy perfection.
+
+3.Hot cocoa
+A comforting hug in a cup, melting your worries with every sip.
+
+4.Kashmiri chai
+A fragrant, creamy masterpiece that warms the soul with every sip.
+
+5.Kehwa
+A soothing blend of spices and saffron, offering warmth and tranquility in every cup.
+
+6.Tea
+A cup of tea is a hug in a mug, warming both the soul and the heart.
+
+7.Warm cider
+A cozy, spiced embrace that fills you with comfort and the essence of autumn.
+
+8.White coffee
+Smooth, creamy, and perfectly balanced, offering a gentle start to your day.
+
+9.Chocolate banana milkshake
+A creamy, sweet blend of ripe bananas and milk, creating a smooth.
+
+10.Chocolate Chai Latte
+A warm, spiced beverage combining rich chocolate and aromatic chai tea.
+
+11.Chocolate Espresso Shake
+A deliciously creamy blend of espresso creating a perfect balance of coffee.
+
+12.Chocolate Hazelnut Drink
+A fragrant, creamy masterpiece that warms the soul with every sip.
+
+13.Chocolate milk
+A sweet and creamy drink made by mixing milk with chocolate syrup.
+
+14.Chocolate protein Shake
+A rich, protein-packed drink made with chocolate and milk.
+
+15.Hot chocolate
+A warm drink made with milk usually topped with whipped cream.
+
+16.Iced chocolate
+A Smooth, creamy, and perfectly balanced, offering a gentle start to your day. 
+
+17.Orange Juice
+A refreshing citrus juice, rich in Vitamin C that boosts the immune system.
+
+18.Apple Juice
+A sweet and mildly tangy juice, packed with antioxidants and dietary fiber.
+
+19.Pineapple Juice
+A tropical juice with a zesty, sweet flavor that aids digestion and reduces inflammation.
+
+20.Mango Juice
+A rich, creamy juice made from ripe mangoes, known for its high vitamin A and C content.
+
+21.Grape Juice
+A naturally sweet juice, loaded with antioxidants that help promote heart health.
+
+22.Carrot Juice
+A nutritious juice full of beta-carotene that supports eye health and boosts skin glow.
+
+23.Watermelon Juice
+A hydrating juice that’s refreshing and packed with vitamins A and C, perfect for summer.
+
+24.Pomegranate Juice
+A tart and tangy juice with powerful antioxidants that may help reduce inflammation.
+
+25.Lemon Juice
+A sour and refreshing juice, packed with Vitamin C, ideal for detoxifying and boosting immunity.
+
+26.Cucumber Juice
+A light and cooling juice, perfect for hydration and offering a good amount of vitamins and minerals.
+
+27.Beetroot Juice
+A vibrant red juice, packed with nitrates that may help improve blood flow and lower blood pressure.
+
+28.Tomato Juice
+A tangy juice filled with antioxidants like lycopene, which may contribute to heart health and skin protection.
+
+29.Spinach Juice
+A nutrient-dense juice, rich in iron and folate, which supports energy levels and overall well-being.
+
+30.Celery Juice
+A low-calorie juice known for its anti-inflammatory properties and potential to aid digestion.
+
+31.Kale Juice
+A super-nutritious juice high in vitamins A, C, and K, which may help detoxify the body and support bone health.
+
+32.Ginger Carrot Juice
+A flavorful blend that combines the sweet taste of carrots with the anti-inflammatory benefits of ginger.
+
+33.Lettuce Juice
+A mild, soothing juice rich in water and vitamins, great for hydration and promoting relaxation.
+
+34.Pumpkin Juice
+A nutrient-packed juice rich in Vitamin A and antioxidants, supporting immunity and skin health.
+
+35.Radish Juice
+A peppery, refreshing juice rich in antioxidants and vitamin C, known to support liver health and digestion.
+
+36.Sweet Potato Juice
+A naturally sweet juice packed with beta-carotene and fiber, which supports immunity and promotes healthy digestion.
+
+37.Virgin Mojito 
+A Mint, lime, sugar, and soda water for a refreshing taste.
+
+38.Fruit Punch 
+A blend of mixed fruit juices for a sweet, tangy flavor.
+
+39.Shirley Temple
+A Ginger ale, grenadine, and a cherry for a sweet treat.
+
+40.Virgin Piña Colada 
+A Coconut milk and pineapple juice, blended creamy and tropical.
+
+41.Cucumber Cooler 
+A Cool cucumber, mint, lime, and soda for a crisp drink.
+
+42.Sunset Cooler 
+A Orange and cranberry juices, topped with soda for a fruity fizz.
+
+43.Berry Lemonade 
+A Fresh berries mixed with tangy lemonade.
+
+44.Tropical Fizz 
+A Pineapple juice and lime with a fizzy soda kick.
+
+45.raspberry Mint Sparkler 
+A Apple juice and mint topped with sparkling water.
+
+46.Citrus Spritzer 
+A zesty combo of lemon, lime, and orange with bubbles.
+
+47.Mango Mania
+A Mangoes, yogurt, and honey for a tropical, creamy treat.
+
+48.Berry Blast
+A mix of strawberries, blueberries, and yogurt for a berry-packed smoothie.
+
+49.Green Goddess
+A Spinach, banana, almond milk, and chia seeds for a healthy green boost.
+
+50.Tropical Paradise
+A Pineapple, coconut milk, and banana for a tropical, refreshing blend.
+
+51.Peanut Butter Banana
+A Peanut butter and banana blended with milk for a creamy, protein-rich drink.
+
+52.Avocado Dream
+A Creamy avocado, banana, honey, and almond milk for a smooth, rich texture.
+
+53.Peach Perfection
+A Sweet peaches, yogurt, and orange juice for a smooth, citrusy drink.
+
+54.Chocolate Banana
+A Bananas and cocoa powder blended with milk for a chocolaty, indulgent smoothie.
+
+55.Berry Almond Delight
+A Berries, almond milk, and almond butter for a nutty, fruity smoothie.
+
+56.Citrus Burst
+A Oranges, lemon, and ginger for a refreshing, tangy citrus smoothie.
+
+57.Peach Juice 
+A Sweet, smooth juice made from ripe peaches for a fragrant, fruity taste.
+
+58.Guava Juice
+A Sweet and tangy juice made from guavas, rich in vitamin C.
+
+59.Cherry Juice 
+A Sweet and slightly tart juice from fresh cherries for a refreshing flavor.
+
+60.Strawberry Juice 
+A Sweet, fragrant juice made from fresh strawberries for a refreshing drink.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
