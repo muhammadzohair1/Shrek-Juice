@@ -29,7 +29,7 @@ let products = [
         name: "Kehwa",
         price: 50,
         description: "A soothing blend of spices and saffron, offering warmth and tranquility in every cup.",
-        imgSrc: "images/Kehwa.webp"
+        imgSrc: "images/kehwa.webp"
     },
     {
         name: "Tea",
