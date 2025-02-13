@@ -26,11 +26,10 @@ let products = [
         imgSrc: "images/kashmiri chai.webp"
     },
     {
-        name: "Kehwa",
-        price: 50,
-        description: "A soothing blend of spices and saffron, offering warmth and tranquility in every cup.",
-        imgSrc: "images/kehwa.webp"
-    },
+        "name": "Kehwa",
+        "price": 50,
+        "image": "./images/kehwa.webp"
+      },      
     {
         name: "Tea",
         price: 50,

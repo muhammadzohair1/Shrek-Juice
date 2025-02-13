@@ -156,7 +156,7 @@ let juiceProducts = [
         name: "Ginger Carrot Juice",
         price: 50,
         description: "A naturally sweet juice, loaded with antioxidants that help promote heart health.",
-        imgSrc: "images/Ginger Carrot Juice.webp"
+        imgSrc: "images/ginger carrot juice.webp"
     },
     {
         name: "Lettuce Juice",
