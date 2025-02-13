@@ -6,7 +6,7 @@ let juiceProducts = [
         name: "Carrot Juice",
         price: 50,
         description: "A nutritious juice full of beta-carotene that supports eye health and boosts skin glow.",
-        imgSrc: "images/carrot-juice.jpg"
+        imgSrc: "images/Carrot Juice.webp"
     },
     {
         name: "Watermelon Juice",
