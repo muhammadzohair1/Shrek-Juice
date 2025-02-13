@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <title>Feedback</title>
+        <meta name="keywords" content>
+        <meta name="description" content>
+        <meta name="author" content>
+        <head>
+            <link
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+                rel="stylesheet">
+        </head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="icon" type="images/icon-x" href="images/favicon.png">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+        <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("images/Banner%20(2).webp");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    animation: scrollBackground 30s linear infinite;
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position: center 0;
+    }
+    100% {
+        background-position: center 1000px;
+    }
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+main h1 {
+    font-size: 3rem;
+    color: #FF6A88;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: rgba(51, 51, 51, 0.7);
+    font-style: italic;
+}
+
+.feedback-section {
+    text-align: center;
+    margin-top:5%;
+    margin-right:20%;
+    margin-left: 20%;
+    background: #fff;
+    color: #333;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    animation: scaleUp 1s ease-in-out;
+}
+
+.feedback-section h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FF6A88;
+    margin-bottom: 10px;
+}
+
+.feedback-section p {
+    font-size: 1rem;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+form label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #FF6A88;
+    box-shadow: 0 4px 15px rgba(255, 106, 136, 0.3);
+    outline: none;
+    background: #fff;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 106, 136, 0.3);
+}
+
+form button:hover {
+    background: orange;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 106, 136, 0.4);
+}
+
+form button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(255, 106, 136, 0.3);
+}
+.namea::placeholder{
+    text-align: center;
+}
+.emaila::placeholder{
+    text-align: center;
+}
+.ratinga::placeholder{
+    text-align: center;
+}
+.feedbacka::placeholder{
+    text-align: center;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback-section {
+        margin-left: 10%;
+        width: 80%;
+        padding: 30px;
+    }
+    main h1 {
+        font-size: 2rem;
+    }
+    main p {
+        font-size: 1rem;
+    }
+    header h1 {
+        font-size: 2.2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .feedback-section {
+        margin-left: 5%;
+        width: 90%;
+        padding: 20px;
+    }
+    main h1 {
+        font-size: 1.5rem;
+    }
+    main p {
+        font-size: 0.9rem;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+    header p {
+        font-size: 0.9rem;
+    }
+}
+
+      </style>
+    </head>
+    <body class="main-layout inner_page ">
+        <header id="myHeader">
+        </header>
+        <main class="text-center">
+            <h1>Juicy Feedback</h1>
+            <p>We love hearing from you!</p>
+        </main>
+
+        <section class="feedback-section">
+            <div class="container">
+                <h2>We Value Your Opinion</h2>
+                <p>Let us know how we're doing. Your feedback helps us
+                    improve!</p>
+                    <form id="feedbackForm" action="submit_feedback.php" method="post" onsubmit="handleSubmit(event)">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name"
+                    class="namea"    placeholder="Enter your name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email"
+                    class="emaila"    placeholder="Enter your email" required>
+
+                    <label for="rating">Rating (1 to 5):</label>
+                    <input type="number" id="rating" name="rating"
+                    class="ratinga"   placeholder="Rate us (1-5)" required min="1" max="5">
+
+                    <label for="feedback">Your Feedback:</label>
+                    <textarea id="feedback" name="feedback"
+                    class="feedbacka"   placeholder="Write your feedback here" maxlength="300"
+                        required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <footer id="contact" class="myfooter" style="margin-top: 5%;">
+
+        </footer>
+        
+        <script>
+            function handleSubmit(event) {
+    event.preventDefault(); 
+    const form = event.target;
+
+
+    if (!form.checkValidity()) {
+        alert("Please fill out all required fields.");
+        return;
+    }
+
+    alert("Thank you for your feedback! Redirecting to the home page...");
+    setTimeout(() => {
+        window.location.href = "index.html"; 
+    }, 100);
+}
+
+        </script>
+        <!-- Javascript files-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <!-- sidebar -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/homeCards.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="js/footer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <title>Catering</title>
+   <meta name="keywords" content>
+   <meta name="description" content>
+   <meta name="author" content>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="icon" type="images/icon-x" href="images/favicon.png">
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+</head>
+
+<body class="main-layout inner_page">
+   <header id="myHeader">
+
+   </header>
+   <div class="juices ">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="search-container text-center my-4">
+                  <input type="text" id="searchInput" placeholder="Search for a juice..." class="form-control"
+                     style="width: 50%; margin: 0 auto; padding: 10px; font-size: 16px;">
+               </div>
+               <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+                  rel="stylesheet">
+            </div>
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Our Juices</h2>
+                  <p>is a long established fact that a reader will be
+                     distracted by the readable content of a page when
+                     looking at </p>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="myJucCard">
+
+         </div>
+      </div>
+   </div>
+   <footer id="contact" class="myfooter">
+
+   </footer>
+
+   <!-- Order Form Modal -->
+   <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="orderModalLabel">Place Your
+                  Order</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <form id="orderForm">
+                  <input type="hidden" id="juiceName" name="juiceName">
+                  <div class="form-group">
+                     <label for="customerName">Name</label>
+                     <input type="text" class="form-control" id="customerName" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">
+                     <label for="customerPhone">Phone Number</label>
+                     <input type="tel" class="form-control" id="customerPhone" placeholder="Your Phone Number" required>
+                  </div>
+                  <div class="form-group">
+                     <label for="customerAddress">Address</label>
+                     <textarea class="form-control" id="customerAddress" rows="2" placeholder="Your Address"
+                        required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Order</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="js/header.js"></script>
+   <script src="js/homeCards.js"></script>
+   <script src="js/footer.js"></script>
+   <script src="js/juiceCard.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"></script>
+
+   <script>
+      function displayJuiceCards(products) {
+         myJuiceCard.innerHTML = "";
+
+         if (products.length === 0) {
+            myJuiceCard.innerHTML = "<p>No juices found.</p>";
+            return;
+         }
+
+         products.forEach(juice => {
+            let cardHTML = `
+        <div class="col-md-4">
+            <div class="our_main_box">
+                <div class="our_img">
+                    <figure><img src="${juice.imgSrc}" alt="${juice.name}" width="100%" style="height: 250px !important;"/></figure>
+                </div>
+                <div class="our_text">
+                    <h4>$<strong class="yellow">${juice.price}</strong></h4>
+                    <h3>${juice.name}</h3>
+                    <p>${juice.description}</p>
+                    <a class="read_more" href="JuiceForm.html">Order Now</a>
+                </div>
+            </div>
+        </div>`;
+
+            myJuiceCard.innerHTML += cardHTML;
+         });
+      }
+
+      displayJuiceCards(juiceProducts);
+
+      document.getElementById("searchInput").addEventListener("input", function () {
+         let searchValue = this.value.toLowerCase();
+
+         let filteredProducts = juiceProducts.filter(juice =>
+            juice.name.toLowerCase().includes(searchValue) ||
+            juice.description.toLowerCase().includes(searchValue)
+         );
+
+         displayJuiceCards(filteredProducts);
+      });
+
+   </script>
+
+</body>
+
+</html>
