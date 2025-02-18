@@ -28,7 +28,7 @@ let products = [
     {
         "name": "Kehwa",
         "price": 50,
-        "image": "./images/kehwa.webp"
+        "image": "images/kehwa.webp"
       },      
     {
         name: "Tea",
