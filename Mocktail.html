@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <title>fresh</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/responsive.css">
-      <link rel="icon" type="images/icon-x" href="images/favicon.png">
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet">
-<style>
-    body {
-         background-image: url('images/Banner\ \(2\).webp');
-         background-repeat: repeat-y;
-         background-size: cover;
-         background-position: center;
-         animation: scrollBackground 30s linear infinite;
-     }
 
-     /* Keyframes for smooth vertical scrolling */
-     @keyframes scrollBackground {
-         0% {
-             background-position: center 0;
-         }
-         100% {
-             background-position: center 1000px;
-         }
-     }
-</style>
-   </head>
-   <body class="main-layout inner_page">
-     
-      <header id="myHeader">
-         
-      </header>
-        <header class="head">
-            <h1>Welcome to Shrek Juice!</h1>
-            <p>Discover the ultimate freshness and flavors in every sip.</p>
-        </header>
-<div class="container" id="mockdrink-container">
-        
-</div>
-<div class="cart">
-    <h2>Your Cart</h2>
-    <ul id="cart-items"></ul>
-</div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Mocktails</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="images/icon-x" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('images/Banner\ \(2\).webp');
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-position: center;
+            animation: scrollBackground 30s linear infinite;
+        }
 
-<script>
-    $(document).ready(function() {
-        $('.add-to-cart').on('click', function() {
-            const juiceName = $(this).data('juice');
+        @keyframes scrollBackground {
+            0% {
+                background-position: center 0;
+            }
 
-            $('#cart-items').append(`<li>${juiceName} <span class='remove'>Remove</span></li>`);
+            100% {
+                background-position: center 1000px;
+            }
+        }
+    </style>
+</head>
 
-            $("body").append(`<div class='notification'>${juiceName} added to cart!</div>`);
+<body class="main-layout inner_page">
 
-            setTimeout(() => {
-                $('.notification').fadeOut(500, function() {
+    <header id="myHeader">
+
+    </header>
+    <header class="head">
+        <h1>Welcome to Shrek Juice!</h1>
+        <p>Discover the ultimate freshness and flavors in every sip.</p>
+        <h1 style="margin-top: 3%; font-weight: bold;">Mocktails!</h1>
+    </header>
+    <div class="container" id="mockdrink-container">
+
+    </div>
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.add-to-cart').on('click', function () {
+                const juiceName = $(this).data('juice');
+
+                $('#cart-items').append(`<li>${juiceName} <span class='remove'>Remove</span></li>`);
+
+                $("body").append(`<div class='notification'>${juiceName} added to cart!</div>`);
+
+                setTimeout(() => {
+                    $('.notification').fadeOut(500, function () {
+                        $(this).remove();
+                    });
+                }, 1500);
+            });
+
+            $(document).on('click', '.remove', function () {
+                $(this).parent().fadeOut(300, function () {
                     $(this).remove();
                 });
-            }, 1500);
-        });
-
-        $(document).on('click', '.remove', function() {
-            $(this).parent().fadeOut(300, function() {
-                $(this).remove();
             });
         });
-    });
-</script>
-<footer id="contact" class="myfooter">
- 
-</footer>
-<!-- Javascript files-->
-<script src="js/mocktail.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/jquery-3.0.0.min.js"></script>
-<!-- sidebar -->
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/header.js"></script>
-<script src="js/homeCards.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="js/footer.js"></script>
+    </script>
+    <footer id="contact" class="myfooter">
+
+    </footer>
+
+    <script src="js/mocktail.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/homeCards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/footer.js"></script>
 </body>
+
 </html>

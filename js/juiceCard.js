@@ -326,11 +326,11 @@ let juiceProducts = [
         description: "A naturally sweet juice, loaded with antioxidants that help promote heart health.",
         imgSrc: "images/Strawberry-Juice.webp"
     },
-  ];
-  
-  for (let i = 0; i < juiceProducts.length; i++) {
+];
+
+for (let i = 0; i < juiceProducts.length; i++) {
     let juice = juiceProducts[i];
-  
+
     let cardHTML = `
       <div class="col-md-4">
                   <div class="our_main_box">
@@ -347,8 +347,6 @@ let juiceProducts = [
                </div>
                
     `;
-  
-    // Append the card HTML to the myJuiceCard container
     myJuiceCard.innerHTML += cardHTML;
-  }
+}
 
