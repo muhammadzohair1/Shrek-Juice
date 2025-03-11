@@ -12,7 +12,7 @@ let juiceProducts = [
         name: "Watermelon Juice",
         price: 50,
         description: "A hydrating juice that's refreshing and packed with vitamins A and C, perfect for summer.",
-        imgSrc: "images/Watermelon Juice.webp"
+        imgSrc: "images/Pomegranate Juice.webp"
     },
     {
         name: "Pomegranate Juice",
